@@ -1,0 +1,220 @@
+.main{
+    width: 950px;
+    margin: auto;
+    background-color: rgba(0, 255, 183, 0.173);
+}
+.first-grid-container{
+    display: grid;
+    grid-template-columns:10px 55% auto 10px;
+    
+}
+.profile{
+    width: 180px;
+    height: 180px;
+    border-radius: 100% ;
+    border : 8px solid  rgb(18, 100, 159);    
+    margin-left: 20%;
+    margin-top: 15px;
+    
+}
+.name-grid{
+    display: grid;
+    grid-template-columns: 130px 130px;
+}
+.first-name-character{
+    font-size: 50px;
+    color: black;
+    margin-left: 15px;
+    font-weight: bolder;
+    font-family: 'Oswald', serif;
+}
+.name-character{
+    font-size: 50px;
+    color:rgb(44, 137, 23);
+    margin-left: 15px;
+    font-family: 'Oswald', serif;
+    text-align: left;
+    font-weight: bolder;
+}
+.border-left{
+    background-color: rgb(26, 55, 84);
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.border-right{
+    background-color: rgb(26, 55, 84);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first-name{
+    color: green;
+}
+.last-name{
+color:rgb(0, 255, 110);
+}
+.socials-grid{
+display: grid;
+grid-template-columns:15px 150px;
+}
+.pictogramms{
+    width: 25px;
+    height: 25px;
+    border-radius: 100% ;
+    margin-left: 15px;
+}
+.socials{
+    margin-left: 35px;
+    padding-top: 5px;
+}
+.job-title-background{
+    border-radius: 10px ;
+    background-color:rgb(14, 0, 58);
+    color:white;
+    text-align: center;
+    margin-left: 245px;
+    margin-right:245px;
+    margin-top: 50px;    
+}
+.job-title{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+}
+.bottom-grid{
+    display: grid;
+    grid-template-columns: 30% 65%;
+}
+.about-me-grid{
+    display: grid;   
+    word-wrap: break-word;
+    
+}
+
+.about-me-grid > div{
+    border-right: solid 3px black;
+    
+}
+.about-me-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.description{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+.skills{  
+  padding: 15px;
+}
+.skills-background{
+    border-radius: 5px;
+    background-color:rgb(9, 15, 49);
+    
+    text-align: left;
+    font-size:20px;
+    color:rgb(240, 248, 255);
+    padding-left: 15px;
+}
+.professional-title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-bottom:5px;
+}
+
+.professional-skills{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.personnal-title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-bottom:5px;
+    padding-top:25px;
+}
+.personnal-skills{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.languages{
+    padding: 15px;
+}
+.languages-background{
+    border-radius: 5px;
+    background-color:rgb(9, 15, 49);    
+    text-align: left;
+    font-size:20px;
+    color:rgb(240, 248, 255);
+    padding-left: 15px;
+}
+.languages-list{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.professional-experiences-grid{
+    display: grid;   
+    word-wrap: break-word;    
+}
+.professional-experiences{
+    margin-top:25px;
+    margin-left: 15px;
+    
+}
+.professional-experiences-background{
+    border-radius: 5px;
+    background-color:rgb(9, 15, 49);   
+    text-align: left; 
+    font-size:20px;
+    color:rgb(240, 248, 255);
+    margin-right:45%;
+    padding-left: 15px;
+}
+.experiences-title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top:20px;
+}
+.date-experiences{
+    color: green;
+    padding-left: 15px;
+    font-weight: bolder;
+}
+.functions{
+    padding-left: 15px;
+}
+.formation{
+    margin-top:25px;
+    margin-left: 15px;
+}    
+.formation-background{
+    border-radius: 5px;
+    background-color:rgb(9, 15, 49);   
+    text-align: left; 
+    font-size:20px;
+    color:rgb(240, 248, 255);
+    margin-right:45%;
+    padding-left: 15px;
+}
+.formation-title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top:20px;
+}
+.formation-date{
+    font-weight: bolder;
+    font-size: 17px;
+    padding-left: 15px;
+}
+.formation-description{
+    padding-left:15px;
+
+}
